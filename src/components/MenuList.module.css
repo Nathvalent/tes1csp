@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.kosong {
+  color: #6b7280;
+  font-style: italic;
+  padding: 20px 0;
+}
