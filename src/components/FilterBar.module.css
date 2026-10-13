@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.searchRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  flex: 1;
+  max-width: 320px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #7c3aed;
+}
+
+.btnClear {
+  padding: 6px 12px;
+  background: #e5e7eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btnClear:hover {
+  background: #d1d5db;
+}
+
+.filterRow {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btnKategori {
+  padding: 5px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.btnKategori:hover {
+  background: #f5f3ff;
+  border-color: #7c3aed;
+}
+
+.aktif {
+  background: #7c3aed;
+  color: #fff;
+  border-color: #7c3aed;
+}
