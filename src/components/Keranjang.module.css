@@ -1,0 +1,137 @@
+.container {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  background: #fff;
+}
+
+.judul {
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+
+.kosong {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.nama {
+  flex: 1;
+  font-size: 14px;
+}
+
+.kontrol {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btnQty {
+  width: 26px;
+  height: 26px;
+  border: 1px solid #7c3aed;
+  border-radius: 4px;
+  background: #f5f3ff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  color: #7c3aed;
+}
+
+.btnQty:hover {
+  background: #ede9fe;
+}
+
+.qty {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.subtotal {
+  font-size: 13px;
+  color: #374151;
+  min-width: 80px;
+  text-align: right;
+}
+
+.btnHapus {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.btnHapus:hover {
+  background: #fee2e2;
+}
+
+.konfirmasiRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 0 2px;
+}
+
+.konfirmasiTeks {
+  font-size: 12px;
+  color: #dc2626;
+}
+
+.btnHapusKonfirm {
+  padding: 2px 8px;
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btnHapusKonfirm:hover {
+  background: #b91c1c;
+}
+
+.btnBatal {
+  padding: 2px 8px;
+  background: #e5e7eb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.btnBatal:hover {
+  background: #d1d5db;
+}
+
+.total {
+  text-align: right;
+  font-size: 16px;
+  padding-top: 8px;
+  border-top: 2px solid #f3f4f6;
+}
