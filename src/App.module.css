@@ -1,0 +1,63 @@
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+.logo {
+  font-size: 24px;
+  margin: 0;
+  color: #7c3aed;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnTimer {
+  padding: 5px 12px;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btnTimer:hover {
+  background: #e5e7eb;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 24px;
+  align-items: start;
+}
+
+.kiri {
+  min-width: 0;
+}
+
+.kanan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
